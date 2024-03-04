@@ -6,8 +6,8 @@ const menu = document.querySelector("#menu")
 
 const hLinks = document.querySelectorAll("#hLink")
 
-const bulan = document.querySelector("#bulan")
 const body = document.querySelector("body")
+const bulan = document.querySelector("#bulan")
 
 hamburger.addEventListener("click", ()=>{
     menu.classList.toggle("hidden")

@@ -1,7 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: "class",
-  content: ["./*.html"],
+  // content: ["./*.html"],
+  content: ["./tailwind-components/*.{html,js}"],
   theme: {
     extend: {
       spacing:{
@@ -9,7 +10,9 @@ module.exports = {
       }
     },
     fontFamily:{
-      nunito:['Nunito', 'sans-serif']
+      nunito:['Nunito', 'sans-serif'],
+      serif: ['ui-serif', 'Georgia'],
+
     }
   },
   plugins: [],

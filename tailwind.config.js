@@ -2,7 +2,7 @@
 module.exports = {
   darkMode: "class",
   // content: ["./*.html"],
-  content: ["./tailwind-components/*.{html,js}"],
+  content: ["./regex_validate/*.{html,js}"],
   theme: {
     extend: {
       spacing:{

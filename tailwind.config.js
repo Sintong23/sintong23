@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: "class",
-  // content: ["./*.html"],
-  content: ["./regex_validate/*.{html,js}"],
+  content: ["./*.html"],
+  // content: ["./regex_valid*.{html,js}"],
   theme: {
     extend: {
       spacing:{
